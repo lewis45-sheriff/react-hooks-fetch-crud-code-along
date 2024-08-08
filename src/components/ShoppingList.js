@@ -47,10 +47,10 @@ function ShoppingList() {
             <Item key={item.id} item={item} />
           ))
         ) : (
-        
+          <li>No items match the selected category</li>
         )}
       </ul>
-      
+      {error && <p className="error">{error}</p>}
     </div>
   );
 }
