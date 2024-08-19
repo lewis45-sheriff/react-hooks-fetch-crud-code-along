@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function ItemForm() {
+function ItemForm({ onAddItem }) {
   const [name, setName] = useState("");
   const [category, setCategory] = useState("Produce");
 
@@ -11,7 +11,6 @@ function ItemForm() {
       category: category,
       isInCart: false,
     };
-
     fetch("http://localhost:4000/items", {
       method: "POST",
       headers: {
@@ -19,20 +18,11 @@ function ItemForm() {
       },
       body: JSON.stringify(itemData),
     })
-      .then((r) => {
-        if (!r.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return r.json();
-      })
+      .then((r) => r.json())
       .then((newItem) => {
-        console.log("Item added:", newItem);
-        // Optionally, clear the form after successful submission
-        setName("");
-        setCategory("Produce");
-      })
-      .catch((error) => {
-        console.error("There was a problem with the fetch operation:", error);
+        onAddItem(newItem);
+        setName(""); // Reset the form
+        setCategory("Produce"); // Reset the form
       });
   }
 
@@ -45,10 +35,8 @@ function ItemForm() {
           name="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          required
         />
       </label>
-
       <label>
         Category:
         <select
@@ -61,7 +49,6 @@ function ItemForm() {
           <option value="Dessert">Dessert</option>
         </select>
       </label>
-
       <button type="submit">Add Item to List</button>
     </form>
   );

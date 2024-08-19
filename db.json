@@ -1,37 +1,31 @@
 {
   "items": [
     {
-      "id": 1,
-      "name": "Yogurt",
-      "category": "Dairy",
-      "isInCart": false
-    },
-    {
-      "id": 2,
+      "id": "2",
       "name": "Pomegranate",
       "category": "Produce",
       "isInCart": false
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Lettuce",
       "category": "Produce",
       "isInCart": false
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "String Cheese",
       "category": "Dairy",
       "isInCart": false
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Swiss Cheese",
       "category": "Dairy",
       "isInCart": false
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Cookies",
       "category": "Dessert",
       "isInCart": false
@@ -40,235 +34,13 @@
       "name": "cookie",
       "category": "Produce",
       "isInCart": false,
-      "id": 7
+      "id": "7"
     },
     {
       "name": "choclate",
       "category": "Dairy",
       "isInCart": false,
-      "id": 8
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 9
-    },
-    {
-      "name": "biscuits",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 10
-    },
-    {
-      "name": "biscuits",
-      "category": "Dessert",
-      "isInCart": false,
-      "id": 11
-    },
-    {
-      "name": "biscuits",
-      "category": "Dessert",
-      "isInCart": false,
-      "id": 12
-    },
-    {
-      "name": "biscuits",
-      "category": "Dessert",
-      "isInCart": false,
-      "id": 13
-    },
-    {
-      "name": "biscuits",
-      "category": "Dessert",
-      "isInCart": false,
-      "id": 14
-    },
-    {
-      "name": "biscuits",
-      "category": "Dessert",
-      "isInCart": false,
-      "id": 15
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 16
-    },
-    {
-      "name": "cookie",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 17
-    },
-    {
-      "name": "",
-      "category": "Dairy",
-      "isInCart": false,
-      "id": 18
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 19
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 20
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 21
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 22
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 23
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 24
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 25
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 26
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 27
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 28
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 29
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 30
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 31
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 32
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 33
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 34
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 35
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 36
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 37
-    },
-    {
-      "name": "",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 38
-    },
-    {
-      "name": "cookie",
-      "category": "Dairy",
-      "isInCart": false,
-      "id": 39
-    },
-    {
-      "name": "cookie",
-      "category": "Dairy",
-      "isInCart": false,
-      "id": 40
-    },
-    {
-      "name": "lewis",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 41
-    },
-    {
-      "name": "kipkewmoi",
-      "category": "Dairy",
-      "isInCart": false,
-      "id": 42
-    },
-    {
-      "name": "kipkemoi",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 43
-    },
-    {
-      "name": "kipkewmoie",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 44
-    },
-    {
-      "name": "cookie",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 45
+      "id": "8"
     }
   ]
 }
